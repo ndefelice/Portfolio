@@ -1,5 +1,7 @@
 # My Portfolio
 
-Portfolio website using Next.js, Typescript, and Tailwind CSS!
+Portfolio website using Next.js, Typescript, and Tailwind CSS. Deployed with Vercel.
 
-Template found on Vercel: [https://vercel.com/templates/portfolio](https://vercel.com/templates/portfolio)
+My portfolio:
+
+Original template found on Vercel: [https://vercel.com/templates/portfolio](https://vercel.com/templates/portfolio)

@@ -21,7 +21,7 @@ import ProjectCard from "app/components/project-card"
 export default function Page() {
   return (
     <section>
-      <h1 className="mb-8 text-3xl font-semibold tracking-tighter">
+      <h1 className="mb-4 text-3xl font-semibold tracking-tighter">
         Projects
       </h1>
       <ProjectCard
