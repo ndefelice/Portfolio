@@ -13,16 +13,20 @@ type JobCardProps = {
   title: string
   company: string
   date: string
-  description: string
+  description: string[]
 }
 
 export const JobCard: React.FC<JobCardProps> = ({ title, company, date, description }) => {
 return (
-    <div className="border border-gray-500 bg-zinc-900 shadow-md rounded-md p-4 my-4 mb-12">
-        <h2 className="text-xl font-semibold">{title}</h2>
-        <h2 className="text-xl text-gray-500">{company}</h2>
-        <h2 className="text-md text-gray-500">{date}</h2>
-        <p className="text-md mt-4">{description}</p>
-    </div>
+  <div className="border-b-4 border-b-zinc-800 py-10">
+    <h2 className="text-xl font-semibold">{title}</h2>
+    <h2 className="text-lg text-gray-400">{company}</h2>
+    <h2 className="text-md text-gray-400">{date}</h2>
+    <ul className="list-disc list-inside mt-4">
+      {description.map((item, index) => (
+        <li key={index} className="text-md py-1">{item}</li>
+      ))}
+    </ul>
+  </div>
 )
 }
