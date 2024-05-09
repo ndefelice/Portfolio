@@ -11,7 +11,7 @@ export default function Page() {
       </h1>
       <p className="mb-4">
         {`Hello everyone! I recently graduated from Virginia Tech in 2024 with a bachelors degree in Computer Science. Throughout my undergraduate career,
-        I was involved in a variety of research projects, internships, and extracurricular activities.I am also an incoming TDP Software Engineer at GEICO 
+        I was involved in a variety of research projects, internships, and extracurricular activities. I am also an incoming TDP Software Engineer at GEICO 
         for the July 2024 cohort. I am excited to start my career at GEICO and learn more about 
         software development!`}
       </p>
