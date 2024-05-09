@@ -4,7 +4,7 @@ import { JobCard } from 'app/components/job-card'
 export default function Page() {
   return (
     <section>
-      <h1 className="mb-8 text-3xl font-semibold tracking-tighter">
+      <h1 className="mb-4 text-3xl font-semibold tracking-tighter">
         Experience
       </h1>
       <JobCard
