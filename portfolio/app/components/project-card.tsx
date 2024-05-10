@@ -31,7 +31,7 @@ export default function ProjectCard({
   learnMoreLink,
 }: ProjectCardProps) {
   return (
-    <div className="flex flex-row border-b-4 border-b-zinc-800 py-10">
+    <div className="flex flex-row border-b-2 border-b-zinc-800 py-10">
       <div>
         <h2 className="text-2xl font-semibold mb-6">{title}</h2>
         <p className="text-md mb-8">{description}</p>

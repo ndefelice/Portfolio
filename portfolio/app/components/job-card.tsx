@@ -18,7 +18,7 @@ type JobCardProps = {
 
 export const JobCard: React.FC<JobCardProps> = ({ title, company, date, description }) => {
 return (
-  <div className="border-b-4 border-b-zinc-800 py-10">
+  <div className="border-b-2 border-b-zinc-800 py-10">
     <h2 className="text-xl font-semibold">{title}</h2>
     <h2 className="text-lg text-gray-400">{company}</h2>
     <h2 className="text-md text-gray-400">{date}</h2>
