@@ -39,7 +39,7 @@ export default function ProjectCard({
           {tags.map((tag) => (
             <button
               key={tag}
-              className="pl-3 pr-3 rounded-xl bg-slate-700 text-sm mb-2"
+              className="pl-3 pr-3 rounded-xl bg-transparent text-gray-400 border-gray-400 border-1 text-sm mb-2"
             >
               {tag}
             </button>
