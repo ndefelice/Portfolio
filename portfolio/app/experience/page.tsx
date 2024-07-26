@@ -8,6 +8,13 @@ export default function Page() {
         Experience
       </h1>
       <JobCard
+        title="TDP Software Engineer I"
+        company="GEICO"
+        date="July 2024 - current"
+        description={[
+        ]}
+      />
+      <JobCard
         title="Python Coding - Senior Design"
         company="Virginia Tech"
         date="January 2024 - May 2024"
