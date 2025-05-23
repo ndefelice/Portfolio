@@ -25,10 +25,11 @@ export default function Page() {
         Projects
       </h1>
       <ProjectCard
-        title="Spaceship Titanic"
-        tags={["Python", "Seaborn", "Jupyter"]}
-        description="Using Python, I trained a support vector machine (SVM) model to predict transported passengers with 77.577% accuracy."
-        learnMoreLink="https://github.com/ndefelice/Spaceship-Titanic-ML"
+        title="Speculatores"
+        tags={["Python", "Django", "LangChain", "GPT-4", "Llama-2", "HuggingFace"]}
+        description="Investigated the application of large language models (LLMs) to enhance in-depth analytical reasoning within the context of intelligence analysis.
+        Our team earned the Best Paper Award at the 2024 IEEE International Conference on Big Data!"
+        learnMoreLink="https://github.com/DiscoveryAnalyticsCenter/speculatores"
       />
     </section>
     //   <div className="flex flex-row border-b-4 border-b-zinc-800 py-10">

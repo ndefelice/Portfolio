@@ -35,11 +35,11 @@ export default function ProjectCard({
       <div>
         <h2 className="text-2xl font-semibold mb-6">{title}</h2>
         <p className="text-md mb-8">{description}</p>
-        <div className="flex flex-wrap justify-start space-x-5">
+        <div className="flex flex-wrap gap-4">
           {tags.map((tag) => (
             <button
               key={tag}
-              className="pl-3 pr-3 rounded-xl bg-transparent text-gray-400 border-gray-400 border-1 text-sm mb-2"
+              className="pl-3 pr-3 rounded-xl bg-transparent text-gray-400 border border-gray-400 text-sm mb-2"
             >
               {tag}
             </button>
